@@ -1,0 +1,56 @@
+<PISI>
+    <Source>
+        <Name>ruby-win32-file-security</Name>
+        <Packager>
+            <Name>Jonathan Camara</Name>
+            <Email>jonathan@jonathancamara.com</Email>
+        </Packager>
+        <License>Artistic-2.0</License>
+        <PartOf>programming.ruby</PartOf>
+        <Summary xml:lang="en">RubyGem - win32-file-security</Summary>
+        <Description xml:lang="en">Ruby library that extends the File class with security related methods for MS Windows
+</Description>
+        <Archive type="binary" sha1sum="79eb0752a961b8e0d15c77d298c97498fbc89c5a">https://solus-project.com/sources/README.Solus</Archive>
+    </Source>
+    <Package>
+        <Name>ruby-win32-file-security</Name>
+        <Summary xml:lang="en">RubyGem - win32-file-security</Summary>
+        <Description xml:lang="en">Ruby library that extends the File class with security related methods for MS Windows
+</Description>
+        <PartOf>programming.ruby</PartOf>
+        <Files>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/build_info</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/doc</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/extensions</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/win32-file-security-1.0.10/CHANGES</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/win32-file-security-1.0.10/MANIFEST</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/win32-file-security-1.0.10/README</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/win32-file-security-1.0.10/Rakefile</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/win32-file-security-1.0.10/appveyor.yml</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/win32-file-security-1.0.10/certs/djberg96_pub.pem</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/win32-file-security-1.0.10/lib/win32-file-security.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/win32-file-security-1.0.10/lib/win32/file/security.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/win32-file-security-1.0.10/lib/win32/file/security/constants.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/win32-file-security-1.0.10/lib/win32/file/security/functions.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/win32-file-security-1.0.10/lib/win32/file/security/structs.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/win32-file-security-1.0.10/test/test_win32_file_security_acls.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/win32-file-security-1.0.10/test/test_win32_file_security_constants.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/win32-file-security-1.0.10/test/test_win32_file_security_encryption.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/win32-file-security-1.0.10/test/test_win32_file_security_ffi.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/win32-file-security-1.0.10/test/test_win32_file_security_ownership.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/win32-file-security-1.0.10/test/test_win32_file_security_permissions.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/win32-file-security-1.0.10/test/test_win32_file_security_version.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/win32-file-security-1.0.10/win32-file-security.gemspec</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/specifications/win32-file-security-1.0.10.gemspec</Path>
+        </Files>
+    </Package>
+    <History>
+        <Update release="1">
+            <Date>2018-06-03</Date>
+            <Version>1.0.10</Version>
+            <Comment>Packaging update</Comment>
+            <Name>Jonathan Camara</Name>
+            <Email>jonathan@jonathancamara.com</Email>
+        </Update>
+    </History>
+</PISI>
