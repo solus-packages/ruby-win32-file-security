@@ -1,6 +1,6 @@
 name       : ruby-win32-file-security
 version    : 1.0.10
-release    : 2
+release    : 3
 source     :
     - https://rubygems.org/downloads/win32-file-security-1.0.10.gem : 39e528fc28e8f11e5132db1c6fc93bc7c22f232783953841ad3dc3a08240f852
 license    : Artistic-2.0
